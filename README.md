@@ -2,7 +2,7 @@
 ====
 Android应用程序第一次安装启动时，我们希望给用户一些app的引导，实现引导页面也是有很多很多中方法，本例就用最常见的viewpage来实现，而且viewpage是支持切换动画的，因此可以做成比较酷炫的引导界面。
 #效果图
-
+![](/screenshot/shot.gif)
 #布局文件
 ```
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
