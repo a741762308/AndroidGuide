@@ -51,7 +51,8 @@ public class SplashActivity extends BaseActivity {
         finish();
         int cont = StringUtils.toInt(aCache.getAsString("guide"));
         if (cont == 0) {
-            startActivity(new Intent(this, GuideActivity.class));
+            //通过pageindicator实现小圆点
+            startActivity(new Intent(this, TabPageIndicator.class));
         } else {
             startActivity(new Intent(this, MainActivity.class));
         }
